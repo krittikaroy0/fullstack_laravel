@@ -16,8 +16,8 @@ class TestController extends Controller
     {
        // echo "got it ".$id." ".$cat_id;
         $arr = array(
-            "username"=>"shahadat",
-            "contact"=>"01797550269"
+            "username"=>"krittika",
+            "contact"=>"01753594577"
         );
 
         $arr2 = array(0,1,2,3,4,5);
