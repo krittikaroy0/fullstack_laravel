@@ -1,3 +1,4 @@
 <h1>Welcome to Home Page</h1>
 
-@include('common.link');
+<a href="/">Home</a>
+<a href="/about">About</a>

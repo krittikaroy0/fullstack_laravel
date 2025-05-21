@@ -1,2 +1,3 @@
-<h1>Home page</h1>
-@include('common.link');
+<h1>Welcome to About Page</h1>
+
+@include('common.links')
