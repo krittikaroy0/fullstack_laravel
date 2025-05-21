@@ -18,5 +18,5 @@ Route::get('/product/{id}/{cat_id?}', function ($id, $cat_id=0) {
     // echo "welcome to Home page";
 })->where(["id"=>"[0-9]+"]);
 
-Route:: get('/test',[TestController::class,'test']);
-Route:: get('/service/{id}/{cat_id}/ ,',[TestController::class,'service']);
+// Route:: get('/test',[TestController::class,'test']);
+// Route:: get('/service/{id}/{cat_id}/ ,',[TestController::class,'service']);
