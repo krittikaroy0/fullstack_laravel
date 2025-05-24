@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Student;
 use Illuminate\Http\Request;
 
 class FormController extends Controller
@@ -27,5 +27,11 @@ class FormController extends Controller
         echo "<br>";
         echo $request->std_id;
         //return $request;
+        $student = new Student();
+        $student->std_id = $request->std_id;
+        $student->first_name = $request->first_name;
+        $student->last_name = $request->last_name;
+        $student->email = $request->email;
+        $student-> save();
     }
 }
